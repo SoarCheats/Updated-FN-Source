@@ -1,7 +1,7 @@
 #pragma once
 #include <Windows.h>
 
-#define OFFSET_UWORLD 0x10567408 
+#define OFFSET_UWORLD 0x103058D8
 
 namespace OFFSETS
 
@@ -21,7 +21,7 @@ namespace OFFSETS
     uintptr_t CurrentActor = 0x8;
     uintptr_t Mesh = 0x310;
     uintptr_t Revivefromdbnotime = 0x4530;
-    uintptr_t TeamId = 0x10B0;
+    uintptr_t TeamId = 0x10B8;
     uintptr_t ActorTeamId = 0x10B0;
 
     uintptr_t LocalActorPos = 0x128;
